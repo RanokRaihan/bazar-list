@@ -1,0 +1,119 @@
+/* css variables */
+:root {
+    --primary-color: #005f73;
+    --secondary-color: #04738a;
+    --primary-text-color: #f1faee;
+    --secondary-text-color: #e9d8a6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* transition: 0.4s ease; */
+}
+ul {
+    list-style-type: none;
+    color: var(--primary-text-color);
+}
+.icon {
+    width: 10px;
+}
+body {
+    font-family: sans-serif, "roboto";
+    width: 100%;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 15px;
+}
+.header {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.input-box {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.list-input,
+.btn {
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.list-input {
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+}
+
+.add-button {
+    border-radius: 0 5px 5px 0;
+    background-color: #00e75a;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.add-button:hover {
+    background-color: #1cff73;
+    text-shadow: black;
+}
+
+.result-section {
+    width: 100%;
+    margin: 20px auto;
+    /* js will make visible  */
+    display: none;
+}
+.list-items {
+    width: 100%;
+}
+.list-item-box {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 10px auto;
+    background: #057c94;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+    font-size: 1rem;
+}
+.delete-button {
+    border-radius: 5px;
+    background-color: #ff0505;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.delete-button:hover {
+    background-color: #f51515;
+}
+.clear-button {
+    border-radius: 5px;
+    background-color: yellow;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    display: block;
+    margin: 0 auto;
+    color: #000;
+}
