@@ -54,7 +54,7 @@ function renderList() {
             const BUTTON = document.createElement("BUTTON");
             BUTTON.setAttribute("class", "btn delete-button");
             BUTTON.setAttribute("onclick", "deleteItem(event)");
-            BUTTON.textContent = "delete";
+            // BUTTON.textContent = "delete";
             LI.appendChild(SPAN);
             LI.appendChild(BUTTON);
             listContainer.appendChild(LI);
