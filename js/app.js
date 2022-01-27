@@ -50,6 +50,7 @@ function renderList() {
             const LI = document.createElement("LI");
             LI.setAttribute("class", "list-item-box");
             const SPAN = document.createElement("SPAN");
+            SPAN.setAttribute("class", "text-span");
             SPAN.textContent = element;
             const BUTTON = document.createElement("BUTTON");
             BUTTON.setAttribute("class", "btn delete-button");
